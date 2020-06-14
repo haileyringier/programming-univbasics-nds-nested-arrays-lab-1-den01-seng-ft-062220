@@ -28,12 +28,12 @@ def assembled_matrix
 def sorted_matrix
   storage_room = [
    CONVENTIONAL_PRODUCE = [
-  "Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"], 
+  "Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort!, 
    ORGANIC_PRODUCE = [
-  "Strawberries","Potatoes","Grapes", "Avocadoes", "Asparagus"]
+  "Strawberries","Potatoes","Grapes", "Avocadoes", "Asparagus"].sort!
    ]
-   ORGANIC_PRODUCE.sort
-   CONVENTIONAL_PRODUCE.sort
+  
+  
 end
 
 def matrix_lookup(matrix, row, column)
