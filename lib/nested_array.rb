@@ -32,7 +32,8 @@ def sorted_matrix
    ORGANIC_PRODUCE = [
   "Strawberries","Potatoes","Grapes", "Avocadoes", "Asparagus"]
    ]
-  # However, this time, sort each internal array alphabetically by the first character
+   ORGANIC_PRODUCE.sort
+   CONVENTIONAL_PRODUCE.sort
 end
 
 def matrix_lookup(matrix, row, column)
