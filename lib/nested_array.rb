@@ -13,7 +13,7 @@ ONVENTIONAL_PRODUCE = [
   "Pineapple",
   "Oranges",
   "Watermelon",
-  "Eggplant"C
+  "Eggplant"
 ]
 
 def assembled_matrix
